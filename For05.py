@@ -7,4 +7,9 @@ def main(A,B):
     Returns:
         list: return  answer
     """
-    return
+    return list(range(A,B))
+
+
+A=int(input("sonni kiriting1:"))
+B=int(input("sonni kiriting2:"))
+print(main(A,B))
