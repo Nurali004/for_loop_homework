@@ -6,4 +6,12 @@ def main(N):
     Returns:
         float: return  answer
     """
-    return
+    yigindi=0
+    for i in range(1, N+1):
+        yigindi+=1/i
+
+    return yigindi
+
+N=int(input("sonni kiriting:"))
+
+print(main(N))
